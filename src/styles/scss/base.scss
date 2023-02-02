@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  font-family: "Neue Haas Unica"
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1180px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+
+}
+
+.btn_black {
+  background-color: #353843;
+  border-color: #353843;
+  color: #fff;
+
+  &:hover {
+    background-color: transparent;
+    color: #353843;
+  }
+}
+
+.btn_green {
+  background-color: #11B2A8;
+  border-color: #11B2A8;
+  color: #fff;
+
+  &:hover {
+    background-color: transparent;
+    color: #11B2A8;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+.p0{
+padding: 0 !important;
+}
